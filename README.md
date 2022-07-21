@@ -1,6 +1,6 @@
 <p align="center">
     <img
-        src="https://nibgat.com/apps/twitchchat/sources/assets/images/logo128.png"
+        src="https://depo.nibgat.com/index.php/apps/files_sharing/ajax/publicpreview.php?x=1366&y=267&a=true&file=logo.png&t=FyTigMwHUL0gJsq&scalingup=0"
         width="75px"
         height="75px"
     />
