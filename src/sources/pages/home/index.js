@@ -1,9 +1,13 @@
-import React, { useState } from 'react';
+import React, {
+    useState
+} from 'react';
 import injectSheet from 'react-jss';
 import style from './stylesheet';
+
 const NoStyledHome = ({ classes }) => {
     const [tempUri, setTempUri] = useState("cay_core");
     const [uri, setUri] = useState("cay_core");
+
     return  <div
         className={classes.container}
     >
@@ -26,10 +30,11 @@ const NoStyledHome = ({ classes }) => {
         </div>
         <iframe
             className={classes.iframe}
-            frameborder="0"
+            frameBorder="0"
             scrolling="no"
             id="chat_embed"
-            src={"https://www.twitch.tv/embed/" + uri + "/chat"}
+            title="Test"
+            src={`https://www.twitch.tv/embed/${uri}/chat?parent=localhost`}
             height="500"
             width="350">
         </iframe>
